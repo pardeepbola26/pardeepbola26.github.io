@@ -1,0 +1,82 @@
+/* Default styles for small screens */
+body {
+    background-color: DodgerBlue;
+    color: White;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: DodgerBlue;
+    color: Snow;
+    background-image: url('../Images/LogoSmall.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 50px; /* Adjust based on your small logo size */
+    padding-top: 20px;
+    text-align: left;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: White;
+}
+
+main {
+    background-color: White;
+    color: Navy;
+    padding: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: DodgerBlue;
+    color: White;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive styles for larger screens */
+@media screen and (min-width: 600px) {
+    body {
+        background-color: LightSkyBlue;
+        color: Navy;
+    }
+
+    header {
+        background-color: DodgerBlue;
+        background-image: url('../Images/LogoLarge.png');
+        min-height: 100px; /* Adjust based on your large logo size */
+    }
+
+    nav ul li {
+        margin-right: 40px;
+    }
+
+    main {
+        max-width: 80%;
+        margin: auto;
+    }
+}
